@@ -29,6 +29,9 @@ body {
     align-items: center;
     word-break: break-all;
     word-wrap: break-word;
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 10px;
 }
 
 .calculator button:hover {
@@ -39,5 +42,8 @@ body {
     grid-column: span 2;
 }
 
-/* .calcButtons {
-} */
+.calcButtons {
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(99, 99, 99, 0.8);
+}
